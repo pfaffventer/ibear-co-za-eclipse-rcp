@@ -93,11 +93,12 @@ The first tab of the demo application represents a trade item or "product" maste
 #User Interface
 Each master file windows consists of a sash with tree panels, a filter panel on the left, a data grid in the centre and an editor panel on the right for entering data related to a record selected in the grid. 
 
-##Filter panel
+###Filter panel
 The filter panel consists of a list of components used to find records in the data grid, available filters includes;
 
-###Search
-This widget will search for any field in the grid matching the text entered in the search field.
+* __Search__
+
+This widget will filter for any field in the grid matching the text entered in the search field.
 
 
 
