@@ -1,0 +1,1 @@
+# ibear-co-za-eclipse-rcp
