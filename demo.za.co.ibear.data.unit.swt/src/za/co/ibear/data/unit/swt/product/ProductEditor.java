@@ -350,7 +350,7 @@ public class ProductEditor extends UnitEditComposite implements IProgressMonitor
 		dataViewer.setLabelProvider(new ProductLabelProvider());
 		new TableColumn(dataTable, SWT.LEFT).setText("Product");
 		new TableColumn(dataTable, SWT.LEFT).setText("Description");
-		new TableColumn(dataTable, SWT.LEFT).setText("Product Category");
+		new TableColumn(dataTable, SWT.LEFT).setText("Category");
 		new TableColumn(dataTable, SWT.RIGHT).setText("Time Created");
 		new TableColumn(dataTable, SWT.LEFT).setText("User");
 		
@@ -363,10 +363,10 @@ public class ProductEditor extends UnitEditComposite implements IProgressMonitor
 		dataTable.getColumn(2).addSelectionListener(getSelectionAdapter(dataTable.getColumn(2), 2));
 		dataTable.getColumn(3).addSelectionListener(getSelectionAdapter(dataTable.getColumn(3), 3));
 		dataTable.getColumn(4).addSelectionListener(getSelectionAdapter(dataTable.getColumn(4), 4));
-		dataTable.getColumn(0).setWidth(120);
-		dataTable.getColumn(1).setWidth(270);
-		dataTable.getColumn(2).setWidth(170);
-		dataTable.getColumn(3).setWidth(210);
+		dataTable.getColumn(0).setWidth(90);
+		dataTable.getColumn(1).setWidth(190);
+		dataTable.getColumn(2).setWidth(120);
+		dataTable.getColumn(3).setWidth(190);
 		dataTable.getColumn(4).setWidth(70);
 		dataTable.setLinesVisible(true);
 		dataTable.setHeaderVisible(true);

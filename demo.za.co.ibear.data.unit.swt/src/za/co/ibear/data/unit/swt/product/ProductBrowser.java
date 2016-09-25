@@ -340,7 +340,7 @@ public class ProductBrowser extends UnitBrowseComposite implements IProgressMoni
 		dataViewer.setLabelProvider(new ProductLabelProvider());
 		new TableColumn(dataTable, SWT.LEFT).setText("Product");
 		new TableColumn(dataTable, SWT.LEFT).setText("Description");
-		new TableColumn(dataTable, SWT.LEFT).setText("Product Category");
+		new TableColumn(dataTable, SWT.LEFT).setText("Category");
 		new TableColumn(dataTable, SWT.RIGHT).setText("Time Created");
 		new TableColumn(dataTable, SWT.LEFT).setText("User");
 		

@@ -340,7 +340,7 @@ public class CategoryQueryBrowser extends UnitBrowseComposite implements IProgre
 		dataTable.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true, 1, 1));
 		dataViewer.setContentProvider(new ArrayContentProvider());
 		dataViewer.setLabelProvider(new CategoryQueryLabelProvider());
-		new TableColumn(dataTable, SWT.LEFT).setText("Product Category");
+		new TableColumn(dataTable, SWT.LEFT).setText("Category");
 		new TableColumn(dataTable, SWT.LEFT).setText("Description");
 		new TableColumn(dataTable, SWT.LEFT).setText("Name");
 		

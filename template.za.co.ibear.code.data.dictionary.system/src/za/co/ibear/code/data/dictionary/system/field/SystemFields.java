@@ -21,7 +21,7 @@ public class SystemFields {
 	public static Field QUALITY_CLASS = new Field("QualityClass","Quality Class",TypeConstant.VARCHAR + " (30)","width=90>default= ");
 
 	public static Field CATEGORY = new Field("Category",TypeConstant.VARCHAR + " (30)","width=90>default= ");
-	public static Field PRODUCT_CATEGORY = new Field("ProductCategory","Product Category",TypeConstant.VARCHAR + " (30)","width=170>default= ");
+	public static Field PRODUCT_CATEGORY = new Field("ProductCategory","Category",TypeConstant.VARCHAR + " (30)","width=170>default= ");
 	public static Field CATEGORY_QUERY = new Field("CategoryQuery","Category Query",TypeConstant.VARCHAR + " (30)","width=170>default= ");
 	public static Field STOCK_QUERY = new Field("StockQuery","Stock Query",TypeConstant.VARCHAR + " (30)","width=170>default= ");
 

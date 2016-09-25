@@ -320,7 +320,7 @@ public class ProductCategoryEditor extends UnitEditComposite implements IProgres
 		ObservableListContentProvider contentProvider = new ObservableListContentProvider();
 		dataViewer.setContentProvider(contentProvider);
 		dataViewer.setLabelProvider(new ProductCategoryLabelProvider());
-		new TableColumn(dataTable, SWT.LEFT).setText("Product Category");
+		new TableColumn(dataTable, SWT.LEFT).setText("Category");
 		new TableColumn(dataTable, SWT.LEFT).setText("Description");
 		
 		for (int i = 0, n = dataTable.getColumnCount(); i < n; i++) {

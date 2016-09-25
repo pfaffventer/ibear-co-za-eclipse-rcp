@@ -337,7 +337,7 @@ public class ProductCategoryBrowser extends UnitBrowseComposite implements IProg
 		dataTable.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true, 1, 1));
 		dataViewer.setContentProvider(new ArrayContentProvider());
 		dataViewer.setLabelProvider(new ProductCategoryLabelProvider());
-		new TableColumn(dataTable, SWT.LEFT).setText("Product Category");
+		new TableColumn(dataTable, SWT.LEFT).setText("Category");
 		new TableColumn(dataTable, SWT.LEFT).setText("Description");
 		
 		for (int i = 0, n = dataTable.getColumnCount(); i < n; i++) {

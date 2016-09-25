@@ -21,11 +21,8 @@ public class TabProductEditor {
 	public void postConstruct(Composite parent) throws Exception {
 
 		parent.setLayout(new FillLayout(SWT.HORIZONTAL));
-		new ProductEditor(parent, SWT.NONE, new int[] {150,600,250},150);
+		new ProductEditor(parent, SWT.NONE, new int[] {150,600,250},130);
 
-		
-		
-		
 	}
 
 }

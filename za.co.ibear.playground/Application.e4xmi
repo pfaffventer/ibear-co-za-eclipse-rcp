@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_rDt_4OnAEeOIAulft4O6Wg" elementId="org.eclipse.e4.ide.application" bindingContexts="_rDt_6enAEeOIAulft4O6Wg">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_rDt_4enAEeOIAulft4O6Wg" label="za.co.ibear.playground" width="1490" height="700">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_rDt_4enAEeOIAulft4O6Wg" selectedElement="_kh-mcPNeEeOF7b4YJtLnoA" label="za.co.ibear.playground" width="1200" height="700">
     <children xsi:type="basic:PartStack" xmi:id="_kh-mcPNeEeOF7b4YJtLnoA" elementId="za.co.ibear.playground.partstack.0">
       <children xsi:type="basic:Part" xmi:id="_Bnqt0Pd-EeOGk9Bs7hFtiQ" elementId="za.co.ibear.playground.part.product" contributionURI="bundleclass://za.co.ibear.playground/part.TabProductEditor" label="Product"/>
       <children xsi:type="basic:Part" xmi:id="_TmdlkC9sEeSfVsFRuWRYuQ" elementId="za.co.ibear.playground.part.supplier" contributionURI="bundleclass://za.co.ibear.playground/part.TabSupplierEditor" label="Supplier"/>
