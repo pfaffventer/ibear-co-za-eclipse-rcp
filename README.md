@@ -113,7 +113,7 @@ The __filter panel__ consists of a list of components used to find records in th
 
 #Conclution
 
-At a late stage in the development of this library, the company I work for implemented a Microsoft based ERP system, I then developed a similar set of components in C# using wpf for the gui components, the C# library was used to develop a production supplier payment system which is still in used to processes payments in excess of 1.5bn South African rand annually.
+At a late stage in the development of this library, the company I work for implemented a Microsoft based ERP system, I then developed a similar set of components in C# using wpf for the gui components, the C# library was used to develop a production supplier payment system, which at the time of writing this document, processed payments in excess of 1.5bn South African rand annually.
 
 
 
