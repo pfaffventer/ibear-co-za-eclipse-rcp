@@ -93,10 +93,8 @@ The first tab of the demo application represents a trade item or "product" maste
 #User Interface
 Each master file windows consists of a sash with tree panels, a filter panel on the left, a data grid in the centre and an editor panel on the right for entering data related to a record selected in the grid. 
 
-###Filter panel
+The __filter panel__ consists of a list of components used to find records in the data grid, available filters includes;
 ![alt text](https://github.com/pfaffventer/ibear-co-za-eclipse-rcp/blob/master/readme.resource/filter_panel_000.PNG "Filter panel")
-
-The filter panel consists of a list of components used to find records in the data grid, available filters includes;
 
 The __search__ widget will filter for any field in the grid matching the text entered in the search field.
 
