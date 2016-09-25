@@ -99,6 +99,11 @@ The __filter panel__ consists of a list of components used to find records in th
 
 * The "Search" widget will filter for any field in the grid matching the text entered in the search field.
 
+![alt text](https://github.com/pfaffventer/ibear-co-za-eclipse-rcp/blob/master/readme.resource/filter_panel_001.PNG "Filter panel")
+
+![alt text](https://github.com/pfaffventer/ibear-co-za-eclipse-rcp/blob/master/readme.resource/filter_panel_002.PNG "Filter panel")
+
+![alt text](https://github.com/pfaffventer/ibear-co-za-eclipse-rcp/blob/master/readme.resource/filter_panel_003.PNG "Filter panel")
 
 
 
