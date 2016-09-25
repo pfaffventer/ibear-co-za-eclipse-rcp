@@ -32,7 +32,7 @@ public class SqliteJdbc {
 
 		@SuppressWarnings("unused")
 		Driver d = (Driver) Class.forName("org.sqlite.JDBC").newInstance();
-		db = DriverManager.getConnection("jdbc:sqlite:D:/neon/rcp-neon/ibear-workspace/za.co.ibear.playground/ibear.db");
+		db = DriverManager.getConnection("jdbc:sqlite:D:/neon/rcp-neon/ibear-workspace/ibear-co-za-eclipse-rcp/za.co.ibear.playground/ibear.db");
 		stUpd = db.createStatement();
 	}
 	
