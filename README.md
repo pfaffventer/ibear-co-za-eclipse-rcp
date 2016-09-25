@@ -88,3 +88,9 @@ public class Product extends Unit {
 
 From this a database schema as well as and Eclipse RCP application is generated, the application can then be extended to add business logic and validation.
 
+The first tab of the demo application represents a trade item ' or product' master file, the second a supplier master file and the third demonstrates how these can be used to create a purchase order application.
+
+
+
+
+
