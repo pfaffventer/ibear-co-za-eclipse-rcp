@@ -7,4 +7,84 @@ A Windows 10 build of the demo app can be downloaded [here](https://github.com/p
 
 Unzip the demo.zip file to a temporary folder and double click the ‘app’ shortcut to start the application, the program works with Java 1.8 on windows 10, I have not tried it on anything else.
 
+#About
+I have been using Eclipse for java development since 2003, this project is a collection of plugins used for writhing database applications.
+
+The idea was to use a configuration class to define a domain object field once and then reuse this field throughout the system, for example;
+```Java
+public static Field SUPPLIER = new Field("Supplier",TypeConstant.VARCHAR + " (30)","width=120>default= ");
+```
+
+The fields are then joined in an application configuration class for example;
+
+```Java
+package za.co.ibear.code.data.dictionary.definition.unit;
+
+import java.util.Set;
+
+import java.util.TreeSet;
+
+import za.co.ibear.code.data.dictionary.system.edit.EditConstant;
+import za.co.ibear.code.data.dictionary.system.edit.UnitEditor;
+import za.co.ibear.code.data.dictionary.system.field.SystemFields;
+import za.co.ibear.code.data.dictionary.system.index.Index;
+import za.co.ibear.code.data.dictionary.system.index.IndexConstant;
+import za.co.ibear.code.data.dictionary.system.primary.key.PrimaryKey;
+import za.co.ibear.code.data.dictionary.system.schema.SchemaConstant;
+import za.co.ibear.code.data.dictionary.system.sequence.Sequence;
+import za.co.ibear.code.data.dictionary.system.unit.Unit;
+import za.co.ibear.swt.control.combo.BComboConstant;
+
+public class Product extends Unit {
+
+	public Product() {
+		super(SchemaConstant.STOCK,false);
+
+		FIELD.add(SystemFields.PRODUCT);
+		FIELD.add(SystemFields.DESCRIPTION);
+		FIELD.add(SystemFields.PRODUCT_CATEGORY);
+		FIELD.add(SystemFields.TIME_CREATED);
+		FIELD.add(SystemFields.VOLUME);
+		FIELD.add(SystemFields.USER);
+
+		VISIBLE_COLUMN.add(SystemFields.PRODUCT);
+		VISIBLE_COLUMN.add(SystemFields.DESCRIPTION);
+		VISIBLE_COLUMN.add(SystemFields.PRODUCT_CATEGORY);
+		VISIBLE_COLUMN.add(SystemFields.TIME_CREATED);
+		VISIBLE_COLUMN.add(SystemFields.USER);
+
+		QUERY = SystemFields.STOCK_QUERY.getName();
+		
+		BCOMBO.add(SystemFields.PRODUCT.getName() + ">>" + BComboConstant.QUERY + ">>" + SystemFields.STOCK_QUERY.getName() + ">>" + SystemFields.STOCK_QUERY.getDescription());
+
+		BCOMBO.add(SystemFields.PRODUCT.getName() + ">>" + BComboConstant.MULTI);
+		BCOMBO.add(SystemFields.DESCRIPTION.getName() + ">>" + BComboConstant.MULTI);
+		BCOMBO.add(SystemFields.PRODUCT_CATEGORY.getName() + ">>" + BComboConstant.UNIT_BROWSE);
+		BCOMBO.add(SystemFields.TIME_CREATED.getName() + ">>" + BComboConstant.DATE);
+		BCOMBO.add(SystemFields.USER.getName() + ">>" + BComboConstant.MULTI);
+
+		EDITOR.add(new UnitEditor(null,SystemFields.PRODUCT,EditConstant.TEXT,false));
+		EDITOR.add(new UnitEditor(null,SystemFields.DESCRIPTION,EditConstant.TEXT,false));
+
+		Set<String> returnSet = new TreeSet<String>();
+		returnSet.add(SystemFields.PRODUCT_CATEGORY.getName());
+		EDITOR.add(new UnitEditor(new ProductCategory(),SystemFields.PRODUCT_CATEGORY,EditConstant.UNIT_EDIT,false,returnSet));
+
+		EDITOR.add(new UnitEditor(null,SystemFields.TIME_CREATED,EditConstant.TEXT,true));
+		EDITOR.add(new UnitEditor(null,SystemFields.VOLUME,EditConstant.TEXT,true));
+		EDITOR.add(new UnitEditor(null,SystemFields.USER,EditConstant.TEXT,true));
+
+		PRIMARY_KEY.add(new PrimaryKey(this.NAME,this.FULL_NAME,IndexConstant.UNIQUE,"01",SystemFields.PRODUCT));
+
+		ENTITY_SEQUENCE.add(new Sequence(SystemFields.PRODUCT.getName(),15));
+
+		INDEX.add(new Index(this.NAME,this.FULL_NAME,IndexConstant.UNIQUE,"01",SystemFields.PRODUCT));
+
+		unitIndex();
+	}
+
+}
+```
+
+From this a database schema as well as and Eclipse RCP application is generated, the application can then be extended to add business logic and validation.
 
