@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Email
+Bundle-SymbolicName: za.co.ibear.jar.plug.apache.commons.email
+Bundle-Version: 1.0.0
+Bundle-ClassPath: commons-email-1.3.2.jar,
+ commons-email-1.3.2-javadoc.jar,
+ commons-email-1.3.2-sources.jar,
+ commons-email-1.3.2-tests.jar,
+ commons-email-1.3.2-test-sources.jar
+Export-Package: org.apache.commons.mail,
+ org.apache.commons.mail.mocks,
+ org.apache.commons.mail.resolver,
+ org.apache.commons.mail.settings,
+ org.apache.commons.mail.util
+Require-Bundle: za.co.ibear.jar.plug.javamail;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+

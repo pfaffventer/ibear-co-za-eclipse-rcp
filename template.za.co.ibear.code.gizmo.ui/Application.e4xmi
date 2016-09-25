@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_k9PU0O4pEeOpR52NAcY9bA" elementId="org.eclipse.e4.ide.application" bindingContexts="_k9PU2e4pEeOpR52NAcY9bA">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_k9PU0e4pEeOpR52NAcY9bA" label="iBear Gizmo(s)" x="200" y="100" width="1400" height="700">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_rOw9QO4pEeOpR52NAcY9bA" elementId="za.co.ibear.code.gizmo.ui.perspectivestack.gizmo">
+      <children xsi:type="advanced:Perspective" xmi:id="_r06XQO4pEeOpR52NAcY9bA" elementId="za.co.ibear.code.gizmo.ui.perspective.gizmo">
+        <children xsi:type="basic:PartStack" xmi:id="_si9wEO4pEeOpR52NAcY9bA" elementId="za.co.ibear.code.gizmo.ui.partstack.tools">
+          <tags>NoAutoCollapse</tags>
+          <children xsi:type="basic:Part" xmi:id="_UTleIO4tEeOpR52NAcY9bA" elementId="za.co.ibear.code.gizmo.ui.part.reverse.engineer" contributionURI="bundleclass://za.co.ibear.code.gizmo.ui/za.co.ibear.code.gizmo.ui.part.ReverseEngineerPart" label="Reverse Log" iconURI="platform:/plugin/za.co.ibear.code.gizmo.ui/icons/run.gif">
+            <toolbar xmi:id="_euf90O4tEeOpR52NAcY9bA" elementId="za.co.ibear.code.gizmo.ui.toolbar.0">
+              <children xsi:type="menu:HandledToolItem" xmi:id="_hk5UcO4zEeOpR52NAcY9bA" elementId="za.co.ibear.code.gizmo.ui.handledtoolitem.0" iconURI="platform:/plugin/za.co.ibear.code.gizmo.ui/icons/folder.png" command="_DlA58O4rEeOpR52NAcY9bA"/>
+            </toolbar>
+          </children>
+        </children>
+      </children>
+    </children>
+  </children>
+  <handlers xmi:id="_holbQO4rEeOpR52NAcY9bA" elementId="za.co.ibear.code.gizmo.ui.handler.openFile" contributionURI="bundleclass://za.co.ibear.code.gizmo.ui/za.co.ibear.code.gizmo.ui.handler.OpenFile" command="_DlA58O4rEeOpR52NAcY9bA"/>
+  <rootContext xmi:id="_k9PU2e4pEeOpR52NAcY9bA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_k9PU2u4pEeOpR52NAcY9bA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_k9PU2-4pEeOpR52NAcY9bA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_DlA58O4rEeOpR52NAcY9bA" elementId="za.co.ibear.code.gizmo.ui.command.openFile" commandName="Open File"/>
+  <addons xmi:id="_k9PU0u4pEeOpR52NAcY9bA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_k9PU0-4pEeOpR52NAcY9bA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_k9PU1O4pEeOpR52NAcY9bA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_k9PU1e4pEeOpR52NAcY9bA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_k9PU1u4pEeOpR52NAcY9bA" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_k9PU1-4pEeOpR52NAcY9bA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_k9PU2O4pEeOpR52NAcY9bA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

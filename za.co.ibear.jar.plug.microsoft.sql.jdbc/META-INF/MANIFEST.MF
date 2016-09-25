@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jdbc
+Bundle-SymbolicName: za.co.ibear.jar.plug.microsoft.sql.jdbc
+Bundle-Version: 1.0.0
+Bundle-ClassPath: sqljdbc4.jar
+Export-Package: com.microsoft.sqlserver.jdbc,
+ microsoft.sql
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

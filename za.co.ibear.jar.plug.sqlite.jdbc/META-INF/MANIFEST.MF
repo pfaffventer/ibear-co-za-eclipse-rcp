@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jdbc
+Bundle-SymbolicName: za.co.ibear.jar.plug.sqlite.jdbc
+Bundle-Version: 1.0.0
+Bundle-ClassPath: sqlite-jdbc-3.8.11.2.jar
+Export-Package: org.sqlite,
+ org.sqlite.core,
+ org.sqlite.date,
+ org.sqlite.javax,
+ org.sqlite.jdbc3,
+ org.sqlite.jdbc4,
+ org.sqlite.util
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

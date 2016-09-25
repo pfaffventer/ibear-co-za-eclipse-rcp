@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Dbutils
+Bundle-SymbolicName: za.co.ibear.jar.plug.apache.commons.dbutils
+Bundle-Version: 1.0.0
+Bundle-ClassPath: commons-dbutils-1.5.jar,
+ commons-dbutils-1.5-javadoc.jar,
+ commons-dbutils-1.5-sources.jar,
+ commons-dbutils-1.5-tests.jar,
+ commons-dbutils-1.5-test-sources.jar
+Export-Package: org.apache.commons.dbutils,
+ org.apache.commons.dbutils.handlers,
+ org.apache.commons.dbutils.wrappers
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

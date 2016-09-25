@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Model
+Bundle-SymbolicName: za.co.ibear.property.model
+Bundle-Version: 1.0.0.qualifier
+Export-Package: za.co.ibear.property.model
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

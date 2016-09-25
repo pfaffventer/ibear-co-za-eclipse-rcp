@@ -1,0 +1,39 @@
+product (simple attributes)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.   Category
+2.   Classification
+
+product (complex attributes)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.   Commodity / Sub Commodity [Variety / Variation / Range] / Type etc...
+2.   Packaging (carton / bag / rap / shrink rap / punnet etc.) 
+
+
+
+commodity
+
+fauna - animal product
+
+sub commodity
+pmt - processed meat
+
+variety
+rmt - red meat
+wmt - white meat
+
+umt - unprocessed meat
+
+
+sub commodity
+dmt - decaying meat
+
+variety
+#rcl - road kill
+#liberated from human camp-site
+#trash
+
+flora - plant product
+
+mpp - marine plant product
+cpp - cultivated plant product (agricultural)
+app - aquatic plant product

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_rDt_4OnAEeOIAulft4O6Wg" elementId="org.eclipse.e4.ide.application" bindingContexts="_rDt_6enAEeOIAulft4O6Wg">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_rDt_4enAEeOIAulft4O6Wg" label="za.co.ibear.playground" width="1490" height="700">
+    <children xsi:type="basic:PartStack" xmi:id="_kh-mcPNeEeOF7b4YJtLnoA" elementId="za.co.ibear.playground.partstack.0">
+      <children xsi:type="basic:Part" xmi:id="_Bnqt0Pd-EeOGk9Bs7hFtiQ" elementId="za.co.ibear.playground.part.product" contributionURI="bundleclass://za.co.ibear.playground/part.TabProductEditor" label="Product"/>
+      <children xsi:type="basic:Part" xmi:id="_TmdlkC9sEeSfVsFRuWRYuQ" elementId="za.co.ibear.playground.part.supplier" contributionURI="bundleclass://za.co.ibear.playground/part.TabSupplierEditor" label="Supplier"/>
+      <children xsi:type="basic:Part" xmi:id="_MTYrcC9qEeSfVsFRuWRYuQ" elementId="za.co.ibear.playground.part.purchase.order" contributionURI="bundleclass://za.co.ibear.playground/part.TabPurchaseOrderEditor" label="Parchase Order"/>
+      <children xsi:type="basic:Part" xmi:id="_IEmJoP8AEeO3JIKHI2QUdg" elementId="za.co.ibear.playground.part.debug" contributionURI="bundleclass://za.co.ibear.playground/part.TabDebug" label="Query"/>
+    </children>
+  </children>
+  <rootContext xmi:id="_rDt_6enAEeOIAulft4O6Wg" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_rDt_6unAEeOIAulft4O6Wg" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_rDt_6-nAEeOIAulft4O6Wg" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <addons xmi:id="_rDt_4unAEeOIAulft4O6Wg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_rDt_4-nAEeOIAulft4O6Wg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_rDt_5OnAEeOIAulft4O6Wg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_rDt_5enAEeOIAulft4O6Wg" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_rDt_5unAEeOIAulft4O6Wg" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_rDt_5-nAEeOIAulft4O6Wg" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_rDt_6OnAEeOIAulft4O6Wg" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

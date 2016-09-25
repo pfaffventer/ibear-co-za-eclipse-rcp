@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Gizmo
+Bundle-SymbolicName: za.co.ibear.code.gizmo
+Bundle-Version: 1.0.0.qualifier
+Export-Package: za.co.ibear.code.gizmo,
+ za.co.ibear.code.gizmo.reverse.engineer,
+ za.co.ibear.code.gizmo.unit.swt
+Require-Bundle: za.co.ibear.code.data.dictionary.system,
+ za.co.ibear.lib.jdbc.utility,
+ za.co.ibear.property.model,
+ za.co.ibear.code.data.dictionary.definition;bundle-version="1.0.0",
+ za.co.ibear.jar.plug.apache.commons.dbutils,
+ za.co.ibear.jar.plug.google.jfilter
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

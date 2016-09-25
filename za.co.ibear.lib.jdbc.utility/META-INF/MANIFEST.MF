@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Utility
+Bundle-SymbolicName: za.co.ibear.lib.jdbc.utility
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: za.co.ibear.jar.plug.postgres.jdbc;bundle-version="1.0.0",
+ za.co.ibear.jar.plug.microsoft.sql.jdbc;bundle-version="1.0.0",
+ za.co.ibear.jar.plug.sqlite.jdbc;bundle-version="1.0.0"
+Export-Package: snippet,
+ za.co.ibear.lib.jdbc.microsoft,
+ za.co.ibear.lib.jdbc.sqlite,
+ za.co.ibear.lib.jdbc.utility
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

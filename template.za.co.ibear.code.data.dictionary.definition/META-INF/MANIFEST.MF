@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Definition
+Bundle-SymbolicName: za.co.ibear.code.data.dictionary.definition
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: za.co.ibear.code.data.dictionary.system;bundle-version="1.0.0",
+ za.co.ibear.lib.jdbc.utility,
+ za.co.ibear.swt.control
+Export-Package: za.co.ibear.code.data.dictionary.definition.query,
+ za.co.ibear.code.data.dictionary.definition.sample.data,
+ za.co.ibear.code.data.dictionary.definition.unit
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
