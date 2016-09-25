@@ -1,6 +1,4 @@
-# ibear-co-za-eclipse-rcp
+# Database application with Eclipse RCP
 
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/pfaffventer/ibear-co-za-eclipse-rcp/blob/master/readme.resource/overview_000.PNG
+Demo application: 
+![alt text](https://github.com/pfaffventer/ibear-co-za-eclipse-rcp/blob/master/readme.resource/overview_000.PNG "Demo application screenshot")
