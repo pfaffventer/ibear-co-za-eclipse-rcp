@@ -12,7 +12,7 @@ I have been using Eclipse for java development since 2003, this project is a col
 
 The idea was to use a configuration class to define a domain object field once and then reuse this field throughout the system, for example;
 ```Java
-public static Field SUPPLIER = new Field("Supplier",TypeConstant.VARCHAR + " (30)","width=120>default= ");
+public static Field PRODUCT = new Field("Product",TypeConstant.VARCHAR + " (30)","width=120>default= ");
 ```
 
 The fields are then joined in an application configuration class for example;
