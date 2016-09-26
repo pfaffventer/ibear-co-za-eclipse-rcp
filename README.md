@@ -111,13 +111,19 @@ The __filter panel__ consists of a list of components used to find records in th
 
 ![alt text](https://github.com/pfaffventer/ibear-co-za-eclipse-rcp/blob/master/readme.resource/filter_panel_003.PNG "Filter panel")
 
+#Editor panel
+write stuff about binding from input to grid cell
+write stuff about browsing and selecting data and adding data e.g. product category on the fly
+
 #Database
 write stuff about apache dbutils and whatever filter here
 
 
 #Conclution
 
-At a late stage in the development of this library, the company I work for implemented a Microsoft based ERP system, I then developed a similar set of components in C# using wpf for the gui components, the C# library was used to develop a production supplier payment system, which at the time of writing this document, processed payments in excess of 1.5bn South African rand annually.
+At a late stage in the development of this library, the company I work for implemented a Microsoft based ERP system, I then developed a similar set of components in C# using wpf for the gui components, the C# library was used to develop a production supplier payment system, which at the time of writing this document, processed payments in excess of 1.5bn South African rand annually. 
+
+write stuff about lessons learnt
 
 
 
