@@ -117,7 +117,7 @@ write stuff about binding input properties to grid cells here
 write stuff about browsing to select properties and adding data e.g. product category on the fly
 
 #Database
-write stuff about apache dbutils and whatever filter here
+write stuff about apache dbutils and google code jfilter here
 
 #Conclution
 
