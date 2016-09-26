@@ -91,7 +91,7 @@ From this a database schema, as well as and Eclipse RCP application is generated
 The first tab of the demo application represents a trade item or "product" master file, the second a supplier master file and the third demonstrates how these can be used to create a purchase order application. 
 
 #User Interface
-Each master file windows consists of a sash with tree panels, a filter panel on the left, a data grid in the centre and an editor panel on the right for entering data related to a record selected in the grid. 
+Each master file window consists of a sash with tree panels, a filter panel on the left, a data grid in the centre and an editor panel on the right for entering data related to a record selected in the grid. 
 
 The __filter panel__ consists of a list of components used to find records in the data grid, including;
 
