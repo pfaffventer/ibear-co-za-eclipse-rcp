@@ -111,10 +111,10 @@ The __filter panel__ consists of a list of components used to find records in th
 
 * The date range widget allows a user to select data between two dates.
 
-#Editor panel
-write stuff about adding, editing and deleting records
-write stuff about binding input properties to grid cells here
-write stuff about browsing to select properties and adding data e.g. product category on the fly
+#Edit panel
+![alt text](https://github.com/pfaffventer/ibear-co-za-eclipse-rcp/blob/master/readme.resource/editor_panel_000.PNG "Edit panel")
+
+
 
 #Database
 write stuff about apache dbutils and google code jfilter here
