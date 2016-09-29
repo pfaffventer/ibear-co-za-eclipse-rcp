@@ -117,7 +117,7 @@ The __filter panel__ consists of a list of components used to find records in th
 The input controls on the edit panel are bound to the data grid, the user can type values or select values or create objects on the fly by opening a CRUD modal, to create a new master file record for example, a new ‘Category’ as per the above screenshot. The toolbar at the top of this panel, allows the user to filter for a control as well as add or delete records.
 
 #Database
-write stuff about apache dbutils and google code jfilter here
+For mapping relational data to java objects I used Apache’s dbutils library and Google Code’s jfilter for super-fast reduction of java collections for filter functionality.
 
 #Conclution
 
