@@ -114,7 +114,7 @@ The __filter panel__ consists of a list of components used to find records in th
 #Edit panel
 ![alt text](https://github.com/pfaffventer/ibear-co-za-eclipse-rcp/blob/master/readme.resource/editor_panel_000.PNG "Edit panel")
 
-
+The input controls on the edit panel are bound to the data grid, the user can type values or select values or create objects on the fly by opening an CRUD modal, to create a new master file record, for example, a new ‘Category’ as per the above screenshot.
 
 #Database
 write stuff about apache dbutils and google code jfilter here
