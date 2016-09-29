@@ -105,11 +105,11 @@ The __filter panel__ consists of a list of components used to find records in th
 
 ![alt text](https://github.com/pfaffventer/ibear-co-za-eclipse-rcp/blob/master/readme.resource/filter_panel_002.PNG "Filter panel")
 
-* Column filter
+* A column filter allows the user to filter for unique values in a data grid column, single or multiple records may be selected.
 
 ![alt text](https://github.com/pfaffventer/ibear-co-za-eclipse-rcp/blob/master/readme.resource/filter_panel_003.PNG "Filter panel")
 
-* Date range
+* The date range widget allows a user to select data between two dates.
 
 #Editor panel
 write stuff about adding, editing and deleting records
