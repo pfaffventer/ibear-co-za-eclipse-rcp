@@ -8,7 +8,7 @@ A Windows 10 build of the demo app can be downloaded [here](https://github.com/p
 Unzip the demo.zip file to a temporary folder and double click the ‘app’ shortcut to start the application, the program works with Java 1.8 on windows 10, I have not tried it on anything else.
 
 #About
-I have been using Eclipse for java development since 2003, this project is a collection of plugins used for writhing database applications.
+I have been using Eclipse for java development since 2003, this project is a collection of plug-ins used for writing database applications.
 
 The idea was to use a configuration class to define a domain object field once and then reuse this field throughout the system, for example;
 ```Java
