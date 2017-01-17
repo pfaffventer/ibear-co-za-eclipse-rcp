@@ -119,6 +119,6 @@ The input controls on the edit panel are bound to the data grid, the user can ty
 #Database
 For mapping relational data to java objects I used Apache’s dbutils library and Google Code’s jfilter for super-fast reduction of java collections for filter functionality.
 
-#Conclution
+#Conclusion
 
 During the development of this collection of plug-ins, the company I work for implemented a Microsoft based ERP system, I then developed a similar library in C#, using WPF for the GUI components, the latter was used to develop a supplier payment system, which at the time of writing this document, processed payments in excess of 1.5bn South African rand annually in production. This development method comes from a legacy of developing ‘thick client’ database applications to automate and integrate ERP systems, nowadays everything is web based, service oriented and mobile first, this thick client however still offers a pleasant user experience and due to the inherent complexity of business systems development, will endure until they also, are replaced with modern distributed systems.
